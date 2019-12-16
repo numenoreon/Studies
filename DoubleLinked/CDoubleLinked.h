@@ -4,6 +4,7 @@
 class CDoubleLinked
 {
 		CNode* tail, * head;
+		int sz;
 	public:
 		CDoubleLinked();
 		CDoubleLinked(int d);
@@ -14,6 +15,8 @@ class CDoubleLinked
 		void deleteFront();
 		void addBack(int d);
 		void deleteBack();
+		void deleteData(int d);
+		void addData(int d, int p);
 
 };
 
